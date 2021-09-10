@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5478DAE926EB01A6006A4F11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5478DAE826EB01A6006A4F11 /* AppDelegate.m */; };
+		5478DAEC26EB01A6006A4F11 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5478DAEB26EB01A6006A4F11 /* SceneDelegate.m */; };
+		5478DAEF26EB01A6006A4F11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5478DAEE26EB01A6006A4F11 /* ViewController.m */; };
+		5478DAF226EB01A6006A4F11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5478DAF026EB01A6006A4F11 /* Main.storyboard */; };
+		5478DAF426EB01AD006A4F11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5478DAF326EB01AD006A4F11 /* Assets.xcassets */; };
+		5478DAF726EB01AD006A4F11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5478DAF526EB01AD006A4F11 /* LaunchScreen.storyboard */; };
+		5478DAFA26EB01AD006A4F11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5478DAF926EB01AD006A4F11 /* main.m */; };
+		5478DB0426EB01AD006A4F11 /* DrawPanelDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5478DB0326EB01AD006A4F11 /* DrawPanelDemoTests.m */; };
+		5478DB0F26EB01AD006A4F11 /* DrawPanelDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5478DB0E26EB01AD006A4F11 /* DrawPanelDemoUITests.m */; };
+		5478DB2726EB020C006A4F11 /* UkeDrawingCanvas.m in Sources */ = {isa = PBXBuildFile; fileRef = 5478DB2026EB020C006A4F11 /* UkeDrawingCanvas.m */; };
+		5478DB2826EB020C006A4F11 /* UkeDrawingPointsParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5478DB2226EB020C006A4F11 /* UkeDrawingPointsParser.m */; };
+		5478DB2926EB020C006A4F11 /* UkePaintingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5478DB2326EB020C006A4F11 /* UkePaintingView.m */; };
+		5478DB3426EB03AE006A4F11 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5478DB3226EB03AE006A4F11 /* UIColor+Extension.m */; };
+		5478DB3A26EB03F7006A4F11 /* NSObject+UkeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5478DB3926EB03F7006A4F11 /* NSObject+UkeKit.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5478DB0026EB01AD006A4F11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5478DADC26EB01A6006A4F11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5478DAE326EB01A6006A4F11;
+			remoteInfo = DrawPanelDemo;
+		};
+		5478DB0B26EB01AD006A4F11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5478DADC26EB01A6006A4F11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5478DAE326EB01A6006A4F11;
+			remoteInfo = DrawPanelDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5478DAE426EB01A6006A4F11 /* DrawPanelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawPanelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5478DAE726EB01A6006A4F11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5478DAE826EB01A6006A4F11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5478DAEA26EB01A6006A4F11 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		5478DAEB26EB01A6006A4F11 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		5478DAED26EB01A6006A4F11 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5478DAEE26EB01A6006A4F11 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5478DAF126EB01A6006A4F11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5478DAF326EB01AD006A4F11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5478DAF626EB01AD006A4F11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5478DAF826EB01AD006A4F11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5478DAF926EB01AD006A4F11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5478DAFF26EB01AD006A4F11 /* DrawPanelDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawPanelDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5478DB0326EB01AD006A4F11 /* DrawPanelDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawPanelDemoTests.m; sourceTree = "<group>"; };
+		5478DB0526EB01AD006A4F11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5478DB0A26EB01AD006A4F11 /* DrawPanelDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawPanelDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5478DB0E26EB01AD006A4F11 /* DrawPanelDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawPanelDemoUITests.m; sourceTree = "<group>"; };
+		5478DB1026EB01AD006A4F11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5478DB2026EB020C006A4F11 /* UkeDrawingCanvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UkeDrawingCanvas.m; sourceTree = "<group>"; };
+		5478DB2126EB020C006A4F11 /* UkeDrawingConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UkeDrawingConstants.h; sourceTree = "<group>"; };
+		5478DB2226EB020C006A4F11 /* UkeDrawingPointsParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UkeDrawingPointsParser.m; sourceTree = "<group>"; };
+		5478DB2326EB020C006A4F11 /* UkePaintingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UkePaintingView.m; sourceTree = "<group>"; };
+		5478DB2426EB020C006A4F11 /* UkeDrawingCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UkeDrawingCanvas.h; sourceTree = "<group>"; };
+		5478DB2526EB020C006A4F11 /* UkeDrawingPointsParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UkeDrawingPointsParser.h; sourceTree = "<group>"; };
+		5478DB2626EB020C006A4F11 /* UkePaintingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UkePaintingView.h; sourceTree = "<group>"; };
+		5478DB3226EB03AE006A4F11 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		5478DB3326EB03AE006A4F11 /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		5478DB3826EB03F7006A4F11 /* NSObject+UkeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+UkeKit.h"; sourceTree = "<group>"; };
+		5478DB3926EB03F7006A4F11 /* NSObject+UkeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+UkeKit.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5478DAE126EB01A6006A4F11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5478DAFC26EB01AD006A4F11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5478DB0726EB01AD006A4F11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5478DADB26EB01A6006A4F11 = {
+			isa = PBXGroup;
+			children = (
+				5478DAE626EB01A6006A4F11 /* DrawPanelDemo */,
+				5478DB0226EB01AD006A4F11 /* DrawPanelDemoTests */,
+				5478DB0D26EB01AD006A4F11 /* DrawPanelDemoUITests */,
+				5478DAE526EB01A6006A4F11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5478DAE526EB01A6006A4F11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5478DAE426EB01A6006A4F11 /* DrawPanelDemo.app */,
+				5478DAFF26EB01AD006A4F11 /* DrawPanelDemoTests.xctest */,
+				5478DB0A26EB01AD006A4F11 /* DrawPanelDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5478DAE626EB01A6006A4F11 /* DrawPanelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5478DB1F26EB020C006A4F11 /* UkeDrawPanel */,
+				5478DAE726EB01A6006A4F11 /* AppDelegate.h */,
+				5478DAE826EB01A6006A4F11 /* AppDelegate.m */,
+				5478DAEA26EB01A6006A4F11 /* SceneDelegate.h */,
+				5478DAEB26EB01A6006A4F11 /* SceneDelegate.m */,
+				5478DAED26EB01A6006A4F11 /* ViewController.h */,
+				5478DAEE26EB01A6006A4F11 /* ViewController.m */,
+				5478DAF026EB01A6006A4F11 /* Main.storyboard */,
+				5478DAF326EB01AD006A4F11 /* Assets.xcassets */,
+				5478DAF526EB01AD006A4F11 /* LaunchScreen.storyboard */,
+				5478DAF826EB01AD006A4F11 /* Info.plist */,
+				5478DAF926EB01AD006A4F11 /* main.m */,
+			);
+			path = DrawPanelDemo;
+			sourceTree = "<group>";
+		};
+		5478DB0226EB01AD006A4F11 /* DrawPanelDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5478DB0326EB01AD006A4F11 /* DrawPanelDemoTests.m */,
+				5478DB0526EB01AD006A4F11 /* Info.plist */,
+			);
+			path = DrawPanelDemoTests;
+			sourceTree = "<group>";
+		};
+		5478DB0D26EB01AD006A4F11 /* DrawPanelDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5478DB0E26EB01AD006A4F11 /* DrawPanelDemoUITests.m */,
+				5478DB1026EB01AD006A4F11 /* Info.plist */,
+			);
+			path = DrawPanelDemoUITests;
+			sourceTree = "<group>";
+		};
+		5478DB1F26EB020C006A4F11 /* UkeDrawPanel */ = {
+			isa = PBXGroup;
+			children = (
+				5478DB2426EB020C006A4F11 /* UkeDrawingCanvas.h */,
+				5478DB2026EB020C006A4F11 /* UkeDrawingCanvas.m */,
+				5478DB2126EB020C006A4F11 /* UkeDrawingConstants.h */,
+				5478DB2526EB020C006A4F11 /* UkeDrawingPointsParser.h */,
+				5478DB2226EB020C006A4F11 /* UkeDrawingPointsParser.m */,
+				5478DB2626EB020C006A4F11 /* UkePaintingView.h */,
+				5478DB2326EB020C006A4F11 /* UkePaintingView.m */,
+				5478DB3326EB03AE006A4F11 /* UIColor+Extension.h */,
+				5478DB3226EB03AE006A4F11 /* UIColor+Extension.m */,
+				5478DB3826EB03F7006A4F11 /* NSObject+UkeKit.h */,
+				5478DB3926EB03F7006A4F11 /* NSObject+UkeKit.m */,
+			);
+			path = UkeDrawPanel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5478DAE326EB01A6006A4F11 /* DrawPanelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5478DB1326EB01AD006A4F11 /* Build configuration list for PBXNativeTarget "DrawPanelDemo" */;
+			buildPhases = (
+				5478DAE026EB01A6006A4F11 /* Sources */,
+				5478DAE126EB01A6006A4F11 /* Frameworks */,
+				5478DAE226EB01A6006A4F11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawPanelDemo;
+			productName = DrawPanelDemo;
+			productReference = 5478DAE426EB01A6006A4F11 /* DrawPanelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5478DAFE26EB01AD006A4F11 /* DrawPanelDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5478DB1626EB01AD006A4F11 /* Build configuration list for PBXNativeTarget "DrawPanelDemoTests" */;
+			buildPhases = (
+				5478DAFB26EB01AD006A4F11 /* Sources */,
+				5478DAFC26EB01AD006A4F11 /* Frameworks */,
+				5478DAFD26EB01AD006A4F11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5478DB0126EB01AD006A4F11 /* PBXTargetDependency */,
+			);
+			name = DrawPanelDemoTests;
+			productName = DrawPanelDemoTests;
+			productReference = 5478DAFF26EB01AD006A4F11 /* DrawPanelDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5478DB0926EB01AD006A4F11 /* DrawPanelDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5478DB1926EB01AD006A4F11 /* Build configuration list for PBXNativeTarget "DrawPanelDemoUITests" */;
+			buildPhases = (
+				5478DB0626EB01AD006A4F11 /* Sources */,
+				5478DB0726EB01AD006A4F11 /* Frameworks */,
+				5478DB0826EB01AD006A4F11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5478DB0C26EB01AD006A4F11 /* PBXTargetDependency */,
+			);
+			name = DrawPanelDemoUITests;
+			productName = DrawPanelDemoUITests;
+			productReference = 5478DB0A26EB01AD006A4F11 /* DrawPanelDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5478DADC26EB01A6006A4F11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					5478DAE326EB01A6006A4F11 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					5478DAFE26EB01AD006A4F11 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 5478DAE326EB01A6006A4F11;
+					};
+					5478DB0926EB01AD006A4F11 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 5478DAE326EB01A6006A4F11;
+					};
+				};
+			};
+			buildConfigurationList = 5478DADF26EB01A6006A4F11 /* Build configuration list for PBXProject "DrawPanelDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5478DADB26EB01A6006A4F11;
+			productRefGroup = 5478DAE526EB01A6006A4F11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5478DAE326EB01A6006A4F11 /* DrawPanelDemo */,
+				5478DAFE26EB01AD006A4F11 /* DrawPanelDemoTests */,
+				5478DB0926EB01AD006A4F11 /* DrawPanelDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5478DAE226EB01A6006A4F11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5478DAF726EB01AD006A4F11 /* LaunchScreen.storyboard in Resources */,
+				5478DAF426EB01AD006A4F11 /* Assets.xcassets in Resources */,
+				5478DAF226EB01A6006A4F11 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5478DAFD26EB01AD006A4F11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5478DB0826EB01AD006A4F11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5478DAE026EB01A6006A4F11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5478DAEF26EB01A6006A4F11 /* ViewController.m in Sources */,
+				5478DAE926EB01A6006A4F11 /* AppDelegate.m in Sources */,
+				5478DB2926EB020C006A4F11 /* UkePaintingView.m in Sources */,
+				5478DB3426EB03AE006A4F11 /* UIColor+Extension.m in Sources */,
+				5478DAFA26EB01AD006A4F11 /* main.m in Sources */,
+				5478DB2726EB020C006A4F11 /* UkeDrawingCanvas.m in Sources */,
+				5478DB2826EB020C006A4F11 /* UkeDrawingPointsParser.m in Sources */,
+				5478DAEC26EB01A6006A4F11 /* SceneDelegate.m in Sources */,
+				5478DB3A26EB03F7006A4F11 /* NSObject+UkeKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5478DAFB26EB01AD006A4F11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5478DB0426EB01AD006A4F11 /* DrawPanelDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5478DB0626EB01AD006A4F11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5478DB0F26EB01AD006A4F11 /* DrawPanelDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5478DB0126EB01AD006A4F11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5478DAE326EB01A6006A4F11 /* DrawPanelDemo */;
+			targetProxy = 5478DB0026EB01AD006A4F11 /* PBXContainerItemProxy */;
+		};
+		5478DB0C26EB01AD006A4F11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5478DAE326EB01A6006A4F11 /* DrawPanelDemo */;
+			targetProxy = 5478DB0B26EB01AD006A4F11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5478DAF026EB01A6006A4F11 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5478DAF126EB01A6006A4F11 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5478DAF526EB01AD006A4F11 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5478DAF626EB01AD006A4F11 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5478DB1126EB01AD006A4F11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5478DB1226EB01AD006A4F11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5478DB1426EB01AD006A4F11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7Q92BKF87;
+				INFOPLIST_FILE = DrawPanelDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.liqian.DrawPanelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5478DB1526EB01AD006A4F11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7Q92BKF87;
+				INFOPLIST_FILE = DrawPanelDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.liqian.DrawPanelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5478DB1726EB01AD006A4F11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7Q92BKF87;
+				INFOPLIST_FILE = DrawPanelDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.liqian.DrawPanelDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawPanelDemo.app/DrawPanelDemo";
+			};
+			name = Debug;
+		};
+		5478DB1826EB01AD006A4F11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7Q92BKF87;
+				INFOPLIST_FILE = DrawPanelDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.liqian.DrawPanelDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawPanelDemo.app/DrawPanelDemo";
+			};
+			name = Release;
+		};
+		5478DB1A26EB01AD006A4F11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7Q92BKF87;
+				INFOPLIST_FILE = DrawPanelDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.liqian.DrawPanelDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DrawPanelDemo;
+			};
+			name = Debug;
+		};
+		5478DB1B26EB01AD006A4F11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7Q92BKF87;
+				INFOPLIST_FILE = DrawPanelDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.liqian.DrawPanelDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DrawPanelDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5478DADF26EB01A6006A4F11 /* Build configuration list for PBXProject "DrawPanelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5478DB1126EB01AD006A4F11 /* Debug */,
+				5478DB1226EB01AD006A4F11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5478DB1326EB01AD006A4F11 /* Build configuration list for PBXNativeTarget "DrawPanelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5478DB1426EB01AD006A4F11 /* Debug */,
+				5478DB1526EB01AD006A4F11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5478DB1626EB01AD006A4F11 /* Build configuration list for PBXNativeTarget "DrawPanelDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5478DB1726EB01AD006A4F11 /* Debug */,
+				5478DB1826EB01AD006A4F11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5478DB1926EB01AD006A4F11 /* Build configuration list for PBXNativeTarget "DrawPanelDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5478DB1A26EB01AD006A4F11 /* Debug */,
+				5478DB1B26EB01AD006A4F11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5478DADC26EB01A6006A4F11 /* Project object */;
+}
