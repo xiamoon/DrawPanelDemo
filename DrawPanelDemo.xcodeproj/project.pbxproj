@@ -120,7 +120,7 @@
 		5478DAE626EB01A6006A4F11 /* DrawPanelDemo */ = {
 			isa = PBXGroup;
 			children = (
-				5478DB1F26EB020C006A4F11 /* UkeDrawPanel */,
+				5478DB1F26EB020C006A4F11 /* UkeDrawPanel1 */,
 				5478DAE726EB01A6006A4F11 /* AppDelegate.h */,
 				5478DAE826EB01A6006A4F11 /* AppDelegate.m */,
 				5478DAEA26EB01A6006A4F11 /* SceneDelegate.h */,
@@ -154,7 +154,7 @@
 			path = DrawPanelDemoUITests;
 			sourceTree = "<group>";
 		};
-		5478DB1F26EB020C006A4F11 /* UkeDrawPanel */ = {
+		5478DB1F26EB020C006A4F11 /* UkeDrawPanel1 */ = {
 			isa = PBXGroup;
 			children = (
 				5478DB2426EB020C006A4F11 /* UkeDrawingCanvas.h */,
@@ -169,7 +169,7 @@
 				5478DB3826EB03F7006A4F11 /* NSObject+UkeKit.h */,
 				5478DB3926EB03F7006A4F11 /* NSObject+UkeKit.m */,
 			);
-			path = UkeDrawPanel;
+			path = UkeDrawPanel1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
