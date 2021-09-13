@@ -16,11 +16,13 @@
 		5478DAFA26EB01AD006A4F11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5478DAF926EB01AD006A4F11 /* main.m */; };
 		5478DB0426EB01AD006A4F11 /* DrawPanelDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5478DB0326EB01AD006A4F11 /* DrawPanelDemoTests.m */; };
 		5478DB0F26EB01AD006A4F11 /* DrawPanelDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5478DB0E26EB01AD006A4F11 /* DrawPanelDemoUITests.m */; };
-		5478DB2726EB020C006A4F11 /* UkeDrawingCanvas.m in Sources */ = {isa = PBXBuildFile; fileRef = 5478DB2026EB020C006A4F11 /* UkeDrawingCanvas.m */; };
-		5478DB2826EB020C006A4F11 /* UkeDrawingPointsParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5478DB2226EB020C006A4F11 /* UkeDrawingPointsParser.m */; };
-		5478DB2926EB020C006A4F11 /* UkePaintingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5478DB2326EB020C006A4F11 /* UkePaintingView.m */; };
-		5478DB3426EB03AE006A4F11 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5478DB3226EB03AE006A4F11 /* UIColor+Extension.m */; };
-		5478DB3A26EB03F7006A4F11 /* NSObject+UkeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5478DB3926EB03F7006A4F11 /* NSObject+UkeKit.m */; };
+		54E0E51826EF6269009EE829 /* UkeDrawingCanvas.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E0E50B26EF6269009EE829 /* UkeDrawingCanvas.m */; };
+		54E0E51926EF6269009EE829 /* UkeDrawingPointsParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E0E50D26EF6269009EE829 /* UkeDrawingPointsParser.m */; };
+		54E0E51A26EF6269009EE829 /* UkePaintingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E0E50F26EF6269009EE829 /* UkePaintingView.m */; };
+		54E0E51B26EF6269009EE829 /* UkeEraseMaskLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E0E51026EF6269009EE829 /* UkeEraseMaskLayer.m */; };
+		54E0E51C26EF6269009EE829 /* UkeGraphicEditInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E0E51426EF6269009EE829 /* UkeGraphicEditInfo.m */; };
+		54E0E52526EF6292009EE829 /* NSObject+UkeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E0E52326EF6292009EE829 /* NSObject+UkeKit.m */; };
+		54E0E52626EF6292009EE829 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E0E52426EF6292009EE829 /* UIColor+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,17 +61,21 @@
 		5478DB0A26EB01AD006A4F11 /* DrawPanelDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawPanelDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5478DB0E26EB01AD006A4F11 /* DrawPanelDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawPanelDemoUITests.m; sourceTree = "<group>"; };
 		5478DB1026EB01AD006A4F11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5478DB2026EB020C006A4F11 /* UkeDrawingCanvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UkeDrawingCanvas.m; sourceTree = "<group>"; };
-		5478DB2126EB020C006A4F11 /* UkeDrawingConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UkeDrawingConstants.h; sourceTree = "<group>"; };
-		5478DB2226EB020C006A4F11 /* UkeDrawingPointsParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UkeDrawingPointsParser.m; sourceTree = "<group>"; };
-		5478DB2326EB020C006A4F11 /* UkePaintingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UkePaintingView.m; sourceTree = "<group>"; };
-		5478DB2426EB020C006A4F11 /* UkeDrawingCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UkeDrawingCanvas.h; sourceTree = "<group>"; };
-		5478DB2526EB020C006A4F11 /* UkeDrawingPointsParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UkeDrawingPointsParser.h; sourceTree = "<group>"; };
-		5478DB2626EB020C006A4F11 /* UkePaintingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UkePaintingView.h; sourceTree = "<group>"; };
-		5478DB3226EB03AE006A4F11 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
-		5478DB3326EB03AE006A4F11 /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
-		5478DB3826EB03F7006A4F11 /* NSObject+UkeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+UkeKit.h"; sourceTree = "<group>"; };
-		5478DB3926EB03F7006A4F11 /* NSObject+UkeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+UkeKit.m"; sourceTree = "<group>"; };
+		54E0E50B26EF6269009EE829 /* UkeDrawingCanvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UkeDrawingCanvas.m; sourceTree = "<group>"; };
+		54E0E50C26EF6269009EE829 /* UkeDrawingConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UkeDrawingConstants.h; sourceTree = "<group>"; };
+		54E0E50D26EF6269009EE829 /* UkeDrawingPointsParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UkeDrawingPointsParser.m; sourceTree = "<group>"; };
+		54E0E50F26EF6269009EE829 /* UkePaintingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UkePaintingView.m; sourceTree = "<group>"; };
+		54E0E51026EF6269009EE829 /* UkeEraseMaskLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UkeEraseMaskLayer.m; sourceTree = "<group>"; };
+		54E0E51126EF6269009EE829 /* UkeGraphicEditInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UkeGraphicEditInfo.h; sourceTree = "<group>"; };
+		54E0E51226EF6269009EE829 /* UkeDrawingCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UkeDrawingCanvas.h; sourceTree = "<group>"; };
+		54E0E51326EF6269009EE829 /* UkeDrawingPointsParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UkeDrawingPointsParser.h; sourceTree = "<group>"; };
+		54E0E51426EF6269009EE829 /* UkeGraphicEditInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UkeGraphicEditInfo.m; sourceTree = "<group>"; };
+		54E0E51526EF6269009EE829 /* UkeEraseMaskLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UkeEraseMaskLayer.h; sourceTree = "<group>"; };
+		54E0E51626EF6269009EE829 /* UkePaintingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UkePaintingView.h; sourceTree = "<group>"; };
+		54E0E52126EF6292009EE829 /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		54E0E52226EF6292009EE829 /* NSObject+UkeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+UkeKit.h"; sourceTree = "<group>"; };
+		54E0E52326EF6292009EE829 /* NSObject+UkeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+UkeKit.m"; sourceTree = "<group>"; };
+		54E0E52426EF6292009EE829 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +126,7 @@
 		5478DAE626EB01A6006A4F11 /* DrawPanelDemo */ = {
 			isa = PBXGroup;
 			children = (
-				5478DB1F26EB020C006A4F11 /* UkeDrawPanel1 */,
+				54E0E50A26EF6269009EE829 /* UkeDrawPanel3 */,
 				5478DAE726EB01A6006A4F11 /* AppDelegate.h */,
 				5478DAE826EB01A6006A4F11 /* AppDelegate.m */,
 				5478DAEA26EB01A6006A4F11 /* SceneDelegate.h */,
@@ -154,22 +160,26 @@
 			path = DrawPanelDemoUITests;
 			sourceTree = "<group>";
 		};
-		5478DB1F26EB020C006A4F11 /* UkeDrawPanel1 */ = {
+		54E0E50A26EF6269009EE829 /* UkeDrawPanel3 */ = {
 			isa = PBXGroup;
 			children = (
-				5478DB2426EB020C006A4F11 /* UkeDrawingCanvas.h */,
-				5478DB2026EB020C006A4F11 /* UkeDrawingCanvas.m */,
-				5478DB2126EB020C006A4F11 /* UkeDrawingConstants.h */,
-				5478DB2526EB020C006A4F11 /* UkeDrawingPointsParser.h */,
-				5478DB2226EB020C006A4F11 /* UkeDrawingPointsParser.m */,
-				5478DB2626EB020C006A4F11 /* UkePaintingView.h */,
-				5478DB2326EB020C006A4F11 /* UkePaintingView.m */,
-				5478DB3326EB03AE006A4F11 /* UIColor+Extension.h */,
-				5478DB3226EB03AE006A4F11 /* UIColor+Extension.m */,
-				5478DB3826EB03F7006A4F11 /* NSObject+UkeKit.h */,
-				5478DB3926EB03F7006A4F11 /* NSObject+UkeKit.m */,
+				54E0E52226EF6292009EE829 /* NSObject+UkeKit.h */,
+				54E0E52326EF6292009EE829 /* NSObject+UkeKit.m */,
+				54E0E52126EF6292009EE829 /* UIColor+Extension.h */,
+				54E0E52426EF6292009EE829 /* UIColor+Extension.m */,
+				54E0E51226EF6269009EE829 /* UkeDrawingCanvas.h */,
+				54E0E50B26EF6269009EE829 /* UkeDrawingCanvas.m */,
+				54E0E50C26EF6269009EE829 /* UkeDrawingConstants.h */,
+				54E0E51326EF6269009EE829 /* UkeDrawingPointsParser.h */,
+				54E0E50D26EF6269009EE829 /* UkeDrawingPointsParser.m */,
+				54E0E51526EF6269009EE829 /* UkeEraseMaskLayer.h */,
+				54E0E51026EF6269009EE829 /* UkeEraseMaskLayer.m */,
+				54E0E51126EF6269009EE829 /* UkeGraphicEditInfo.h */,
+				54E0E51426EF6269009EE829 /* UkeGraphicEditInfo.m */,
+				54E0E51626EF6269009EE829 /* UkePaintingView.h */,
+				54E0E50F26EF6269009EE829 /* UkePaintingView.m */,
 			);
-			path = UkeDrawPanel1;
+			path = UkeDrawPanel3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,14 +312,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				5478DAEF26EB01A6006A4F11 /* ViewController.m in Sources */,
+				54E0E51A26EF6269009EE829 /* UkePaintingView.m in Sources */,
+				54E0E52626EF6292009EE829 /* UIColor+Extension.m in Sources */,
+				54E0E51B26EF6269009EE829 /* UkeEraseMaskLayer.m in Sources */,
+				54E0E51C26EF6269009EE829 /* UkeGraphicEditInfo.m in Sources */,
 				5478DAE926EB01A6006A4F11 /* AppDelegate.m in Sources */,
-				5478DB2926EB020C006A4F11 /* UkePaintingView.m in Sources */,
-				5478DB3426EB03AE006A4F11 /* UIColor+Extension.m in Sources */,
+				54E0E52526EF6292009EE829 /* NSObject+UkeKit.m in Sources */,
 				5478DAFA26EB01AD006A4F11 /* main.m in Sources */,
-				5478DB2726EB020C006A4F11 /* UkeDrawingCanvas.m in Sources */,
-				5478DB2826EB020C006A4F11 /* UkeDrawingPointsParser.m in Sources */,
+				54E0E51926EF6269009EE829 /* UkeDrawingPointsParser.m in Sources */,
+				54E0E51826EF6269009EE829 /* UkeDrawingCanvas.m in Sources */,
 				5478DAEC26EB01A6006A4F11 /* SceneDelegate.m in Sources */,
-				5478DB3A26EB03F7006A4F11 /* NSObject+UkeKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
